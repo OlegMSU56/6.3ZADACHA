@@ -19,8 +19,7 @@ class Eagle:
 
 
 class Pegas(Horse, Eagle):
-    def __init__(self):
-        super().__init__()
+
     def move(self, dx, dy):
         return (self.run(dx), self.fly(dy))
 
